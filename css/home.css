@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  *:before, *:after {
+    box-sizing: border-box;
+  }
+
+/* ===== Header ===== */
+
+.header-paralax {
+    top: 40px;
+    background-image: url('../images/background1.png');
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    height: 300px;
+}
+
+.header-paralax h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 3px 1px #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 20px;
+    font-size: 50px;
+    padding: 130px 0;
+}
+
+.header-paralax h3 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 3px 1px #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 20px;
+    font-size: 50px;
+    padding: 150px 0;
+}
+
+/* ===== Page ===== */
+
+main {
+    background: #E7E3DA;
+    position: relative;
+    top: 340px;
+    font-family: 'Raleway', sans-serif;
+}
+
+main .content {
+    max-width: 850px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+main h1 {
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+main p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+/* ===== Barra de links ===== */
+
+.bar-header {
+    overflow: hidden;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+.bar-header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.bar-header a.logo {
+    color: #fff;
+    text-shadow: 2px 3px 1px #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 15px;
+    font-size: 50px;
+}
+
+.bar-header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.bar-header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.bar-header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .bar-header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .bar-header-right {
+        float: none;
+    }
+}
