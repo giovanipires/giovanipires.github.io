@@ -7,72 +7,16 @@
     box-sizing: border-box;
   }
 
-/* ===== Header ===== */
-
-.header-paralax {
-    top: 40px;
-    background-image: url('../images/background1.png');
-    background-size: cover;
-    width: 100%;
-    position: fixed;
-    height: 300px;
-}
-
-.header-paralax h1 {
-    text-align: center;
-    color: #fff;
-    text-shadow: 2px 3px 1px #000;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    letter-spacing: 20px;
-    font-size: 50px;
-    padding: 130px 0;
-}
-
-.header-paralax h3 {
-    text-align: center;
-    color: #fff;
-    text-shadow: 2px 3px 1px #000;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    letter-spacing: 20px;
-    font-size: 50px;
-    padding: 150px 0;
-}
-
-/* ===== Page ===== */
-
-main {
-    background: #E7E3DA;
-    position: relative;
-    top: 340px;
-    font-family: 'Raleway', sans-serif;
-}
-
-main .content {
-    max-width: 850px;
-    margin: auto;
-    padding: 0 20px;
-}
-
-main h1 {
-    font-size: 40px;
-    padding: 50px 0;
-}
-
-main p {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 20px 0;
-}
-
-/* ===== Barra de links ===== */
+/* ===== Header => Barra de links ===== */
 
 .bar-header {
-    overflow: hidden;
-    background-color: white;
-    padding: 10px 10px;
+    background: #fff;
+    padding: .625rem 1.25rem;
+    box-shadow: 0 -3px 9px #000;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    font-family: 'Raleway', sans-serif;
 }
 
 .bar-header a {
@@ -119,4 +63,84 @@ main p {
     .bar-header-right {
         float: none;
     }
+}
+
+/* ===== Header ===== */
+
+.header-paralax {
+    top: 50px;
+    background-image: url('../images/background1.png');
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    height: 300px;
+}
+
+.header-paralax h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 3px 1px #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 20px;
+    font-size: 50px;
+    padding: 130px 0;
+}
+
+/* ===== Page ===== */
+
+main {
+    background: #E7E3DA;
+    position: relative;
+    top: 340px;
+    font-family: 'Raleway', sans-serif;
+}
+
+main .content {
+    max-width: 850px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+main h1 {
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+main p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.bio-bar{
+    background: #fff;
+    padding: .625rem 1.25rem;
+    box-shadow: 0 -3px 9px #000;
+    position: fixed;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bio-bar a{
+    color: black;
+    text-shadow: 2px 3px 1px darkgrey;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.bio-text{
+    background: white;
+    position: relative;
+    top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px 0;
+    margin-left: 30px;
 }
