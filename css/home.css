@@ -69,7 +69,7 @@
 
 .header-paralax {
     top: 50px;
-    background-image: url('../images/background.png');
+    background-image: url('../images/background.jpg');
     background-size: cover;
     width: 100%;
     position: fixed;
@@ -118,7 +118,7 @@ main p {
     background: #fff;
     padding: .625rem 1.25rem;
     box-shadow: 0 -3px 9px #000;
-    position: fixed;
+    position: over;
     width: 100%;
     font-family: 'Raleway', sans-serif;
 }
@@ -134,13 +134,11 @@ main p {
 }
 
 .bio-text{
-    background: white;
     position: relative;
-    top: 100px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.5;
-    padding: 20px 0;
     margin-left: 30px;
+    padding: 15px 0;
 }
