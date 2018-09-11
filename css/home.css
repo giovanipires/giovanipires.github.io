@@ -12,7 +12,7 @@
 .bar-header {
     background: #fff;
     padding: .625rem 1.25rem;
-    box-shadow: 0 -3px 9px #000;
+    box-shadow: -3px 0px 9px #000;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -117,7 +117,7 @@ main p {
 .bio-bar{
     background: #fff;
     padding: .625rem 1.25rem;
-    box-shadow: 0 -3px 9px #000;
+    box-shadow: -3px 0px 9px #000;
     position: over;
     width: 100%;
     font-family: 'Raleway', sans-serif;
