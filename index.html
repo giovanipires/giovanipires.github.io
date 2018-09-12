@@ -9,7 +9,7 @@
     <meta name="author" content="Giovani Pires">
     <meta http-equiv="refresh" content="3600">
     
-    <link rel="icon" href="./images/DevWeb.png" type="image/x-icon">
+    <link rel="icon" href="./images/logos/DevWeb.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/home.css"/>
     <link href='https://fonts.googleapis.com/css?family=Raleway:900,300' rel='stylesheet' type='text/css'>
 
@@ -23,13 +23,27 @@
                 <a class="active" href="https://giovanipires.github.io/">Home</a>
                 <a href="#blog">Blog</a>
                 <a href="https://api.whatsapp.com/send?phone=5521998311543&text=Gostaria de falar com você!">Contact</a>
-                <a href="https://www.linkedin.com/in/giovani-pires-79715420/">About</a>
+                <a href="#">About</a>
             </div>
         </div> 
     </header>
     
     <header class="header-paralax">
-        <h1>Giovani Pires</h1>
+        <div id="bg">
+            <div class="container12">
+                <ul id="scene">
+                    <li class="layer" id="l0" data-depth="0.00"><img src="./images/main/background.jpg" alt="background"></li>
+                    <li class="layer" id="l1" data-depth="0.20"><img src="./images/layer1.png" alt="html"></li>
+                    <li class="layer" id="l2" data-depth="0.60"><img src="./images/layer2.png" alt="css"></li>
+                    <li class="layer" id="l3" data-depth="0.80"><img src="./images/layer3.png" alt="javascript"></li>
+                    <li class="layer" id="l4" data-depth="1.00"><img src="./images/layer4.png" alt="github"></li>
+                    <li class="layer" id="l5" data-depth="1.20"><img src="./images/layer5.png" alt="sqlserver"></li>
+                    <li class="layer" id="l6" data-depth="1.40"><img src="./images/layer6.png" alt="oracle"></li>
+                    <li class="layer" id="l7" data-depth="1.60"><img src="./images/layer7.png" alt="node"></li>
+                    <li class="layer" id="l8" data-depth="1.80"><img src="./images/layer8.png" alt="mysql, postgre, gimp, inkspace, gitbash"></li>
+                </ul>   
+            </div>
+        </div>           
     </header>
 
     <main>
@@ -37,7 +51,7 @@
             <div class="bio-bar">
                 <div>
                     <picture class="img-spec">
-                        <img src="./images/diploma.png" alt="diploma" height="35" width="35">
+                        <img src="./images/logos/diploma.png" alt="diploma" height="35" width="35">
                     </picture>
                     <a name="formacao" content="graduacao, pos-graduacao">Formação</a>
                 </div>
@@ -56,7 +70,7 @@
             <div class="bio-bar">
                 <div>
                     <picture class="img-spec">
-                        <img src="./images/computer-graphic.png" alt="habilidades" height="35" width="35">
+                        <img src="./images/logos/computer-graphic.png" alt="habilidades" height="35" width="35">
                     </picture>
                     <a name="habilidades" content="cursos, certificacoes">Cursos e certificações</a>
                 </div>
@@ -77,8 +91,18 @@
                     <li>UX e Usabilidade - Primeiros passos | TreinaWeb | Conclusão Maio 2014;</li>
                 </ul>
             </div>
+
+            <div class="page-parallax"></div>
         </section>
 
+
+    <!-- Scripts Parallax movimento tela-->   
     <script src="js/scrollBanner.js" ></script>
+    
+    <!-- Scripts Parallax movimento layers-->
+    <script src="js/parallax.min.js"></script>
+    <script src="js/simple.js"></script>    
+
+
 </body>
 </html>
