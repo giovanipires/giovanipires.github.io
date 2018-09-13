@@ -3,15 +3,13 @@
 .header-paralax {
     
     background-image: url(); /*image*/
-    height: 500px; /*altura*/
     /*parallax efeito de scroll*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 300%;
+    background-size: cover;
     /*parallax ajustes*/
     position: fixed;
-    width: 100%;
 }
 
 .header-paralax h1 {
