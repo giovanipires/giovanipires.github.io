@@ -11,37 +11,49 @@
 
 /* ===== Page ===== */
 
-main {
-    background: #E7E3DA;
-    position: relative;
-    top: 340px;
+body{
+    background-color: #fff;
 }
 
-main .content {
-    max-width: 850px;
-    margin: auto;
-    padding: 0 20px;
+/*informacoes-pessoais*/
+
+.dados{
+    position: absolute;
+    margin: 100px;
+    left: 330px;
 }
 
-main h1 {
+.dados h1{
+    color: black;
+    text-shadow: 2px 3px 1px darkgrey;
+    font-weight: 250;
+    letter-spacing: 2px;
     font-size: 40px;
-    padding: 50px 0;
 }
 
-main p {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 20px 0;
+.dados h2{
+    color: grey;
+    text-shadow: 2px 3px 1px lightgrey;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 30px;
 }
 
-/*Barras de Conhecimento*/
+.dados h3, a{
+    color: gray;
+    text-shadow: 2px 3px 1px lightgrey;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+/*bar-header*/
 
 .bio-bar{
     background: #fff;
-    padding: .625rem 1.25rem;
+    position: absolute;
+    margin: 500px 0 0;
     box-shadow: -3px 0px 9px #000;
-    position: over;
     width: 100%;
 }
 
@@ -55,11 +67,9 @@ main p {
 }
 
 .bio-text{
-    position: relative;
+    position: absolute;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.5;
-    margin-left: 30px;
-    padding: 15px 0;
+    margin: 570px 30px 0;
 }
-
