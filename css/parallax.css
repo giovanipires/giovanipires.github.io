@@ -1,7 +1,7 @@
 /* ===== Header ===== */
 
 .header-paralax {
-    
+
     background-image: url(); /*image*/
     /*parallax efeito de scroll*/
     background-attachment: fixed;
@@ -37,5 +37,16 @@
     position: absolute;
     background-color: transparent;
     margin-top: 300px;
-    margin-left: 0px; /* posiciona a 0px para a esquerda */ 
+    margin-left: 0px; /* posiciona a 0px para a esquerda */
+}
+
+/* adicionar aqui os novos estilos para mobile */
+@media screen and (max-width: 320px) {
+    .bar-header {
+        background: #fff;
+        font-family: 'Raleway', sans-serif;
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
