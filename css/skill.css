@@ -1,0 +1,32 @@
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing:border-box;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* Container for skill bars */
+.container {
+    width: 95%; /* Full width */
+    background-color: #ddd; /* cinza */
+    margin-left: 20px;
+    align-content: center;
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding: 10px; /* Add some padding */
+    color: white; /* White text color */
+}
+
+.html {width: 85%; background-color: #ff6600;} /* laranja */
+.css {width: 75%; background-color: #2196F3;} /* azul */
+.js {width: 65%; background-color: #ffff00;} /* amarelo */
+.bd {width: 65%; background-color: #f44336;} /* vermelho */
+.nodejs {width: 40%; background-color: #00cc00;} /* verde */
+.php {width: 25%; background-color: #df9fbf;} /* lilas */
+
+.skill-bar p{
+  margin-left: 20px;
+}
