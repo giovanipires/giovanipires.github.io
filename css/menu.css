@@ -44,14 +44,3 @@
 .bar-header-right {
     float: right;
 }
-
-/* adicionar aqui os novos estilos para mobile */
-@media screen and (max-width: 320px) {
-    .bar-header {
-        background: #fff;
-        font-family: 'Raleway', sans-serif;
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}

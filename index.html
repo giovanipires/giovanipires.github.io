@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
+
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="description" content="Currículo Web">
         <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -10,176 +11,191 @@
         <meta http-equiv="refresh" content="3600">
 
         <link rel="icon" href="./images/logos/DevWeb.png" type="image/x-icon" style="width:100%"/>
-        <link rel="stylesheet" type="text/css" href="css/home.css"/>
-        <link rel="stylesheet" type="text/css" href="css/menu.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/gradiente.css"/>
+        <link rel="stylesheet" type="text/css" href="css/home.css"/>
         <link rel="stylesheet" type="text/css" href="css/skill.css"/>
         <link rel="stylesheet" type="text/css" href="css/parallax.css"/>
 
-        <link href='https://fonts.googleapis.com/css?family=Raleway:900,300' rel='stylesheet' type='text/css'>
-
         <title>Giovani Pires | Front-end</title>
+
     </head>
     <body>
         <header>
-            <div class="bar-header">
-                <div class="bar-header-right">
-                    <a class="active" href="https://giovanipires.github.io/">Home</a>
-                    <a href="#blog">Blog</a>
-                    <a href="https://api.whatsapp.com/send?phone=5521998311543&text=Gostaria%20de%20falar%20com%20voc%C3%AA!">Contato</a>
-                    <a href="https://www.linkedin.com/in/giovani-pires-79715420/">Sobre</a>
-                </div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+              <img src="./images/logos/DevWeb.png" width="30" height="30" alt="logo desenvolvedor web">
+            </a>
+            <a class="navbar-brand" href="home.html">Giovani Cavalho P. Pires<span class="sr-only">(current)</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Me conheça
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5521998311543&text=Gostaria%20de%20falar%20com%20voc%C3%AA!">Meu Whatsapp</a>
+                    <a class="dropdown-item" href="https://www.linkedin.com/in/giovani-pires-79715420/">Meu Linkedin</a>
+                    <a class="dropdown-item" href="https://github.com/giovanipires">Meu Github</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="portfolio.html">Portfólio</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
             </div>
+          </nav>
         </header>
+
         <main>
-        <section class="imagem-pessoal">
-            <div class="shadow">
-                <img class="foto" src="./images/main/euPretoBranco.jpg" style="max-width:100%; height: auto;" alt="Foto perfil Giovani Pires">
-            </div>
-        </section>
-        <section class="informacoes-pessoais">
-            <div class="dados">
-                <h1>Giovani Carvalho P. Pires</h1><br>
-                <h2>Desenvolvedor Front-end</h2><br>
-                <div class="icons-dados">
-                    <div>
-                        <a name="Hoteleiro" content="graduacao">Hoteleiro por formação  </a>
-                        <picture> <!--"designed by Pixelmeetup from Flaticon"-->
-                            <img src="./images/logos/009-hotel-bell.png" alt="hotel-bell" style="widows: 20px; height:20px">
-                        </picture>
-                    </div>
-                    <br>
-                    <div>
-                        <a name="TI" content="vocacao">TI por vocação  </a>
-                        <picture> <!--"designed by Smashicons from Flaticon"-->
-                            <img src="./images/logos/macintosh.png" alt="macintosh" style="widows: 20px; height:20px">
-                            <img src="./images/logos/021-mysql.png" alt="mysqlLogo" style="widows: 20px; height:20px">
-                        </picture>
-                    </div>
-                    <br>
-                    <div>
-                        <a name="Developer" content="opcao">Desenvolvedor por opção  </a>
-                        <picture> <!--"designed by Freepik from Flaticon"-->
-                            <img src="./images/logos/030-html-5.png" alt="htmlLogo" style="widows: 20px; height:20px">
-                            <img src="./images/logos/031-css.png" alt="cssLogo" style="widows: 20px; height:20px">
-                            <img src="./images/logos/js3 - logo.png" alt="javaScriptLogo" style="widows: 20px; height:20px">
-                            <img src="./images/logos/027-php.png" alt="phpLogo" style="widows: 20px; height:20px">
-                            <img src="./images/logos/032-nodejs.png" alt="nodeLogo" style="widows: 20px; height:20px">
-                            <img src="./images/logos/010-github.png" alt="githubLogo" style="widows: 20px; height:20px">
-                        </picture>
-                    </div>
-                    <br>
-                    <div>
-                    <a name="Motociclista" content="coracao">Motociclista de coração  </a>
-                        <picture> <!--"designed by Smashicons from Flaticon"-->
-                            <img src="./images/logos/motorbike.png" alt="motorbike" style="widows: 20px; height:20px">
-                        </picture>
-                    </div>
-                    <br>
-                    <div>
-                        <a name="Gamer" content="diversao">Gamer e corredor por diversão  </a>
-                            <picture> <!--"designed by Smashicons from Flaticon"-->
-                                <img src="./images/logos/game-controller-1.png" alt="game" style="widows: 20px; height:20px">
-                                <img src="./images/logos/059-walking.png" alt="running" style="widows: 20px; height:20px">
-                            </picture>
-                    </div>
-                    <br>
-                    <div>
-                        <a name="Cervejeiro" content="paixao">Cervejeiro e cozinheiro de paixão  </a>
-                            <picture> <!--"designed by Pixelmeetup from Flaticon"-->
-                                <img src="./images/logos/030-bacon.png" alt="bacon" style="widows: 20px; height:20px">
-                                <img src="./images/logos/050-beer-tap.png" alt="beer" style="widows: 20px; height:20px">
-                                <img src="./images/logos/008-coffee.png" alt="coffe" style="widows: 20px; height:20px">
-                            </picture>
-                    </div>
+          <section>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="shadow">
+                    <img class="img-responsive" src="./images/main/euPretoBranco.jpg" style="max-width:100%; height: auto;" alt="Foto perfil Giovani Pires">
                 </div>
+              </div>
+              <div class="col-md-auto" id="info-pessoal">
+                <h3>Desenvolvedor Front-end</h3>
+                <a name="Hoteleiro" content="graduacao">Hoteleiro por formação  </a>
+                  <picture> <!--"designed by Pixelmeetup from Flaticon"-->
+                      <img src="./images/logos/009-hotel-bell.png" alt="hotel-bell" style="widows: 20px; height:20px">
+                  </picture><br>
+                <a name="TI" content="vocacao">TI por vocação  </a>
+                  <picture> <!--"designed by Smashicons from Flaticon"-->
+                      <img src="./images/logos/macintosh.png" alt="macintosh" style="widows: 20px; height:20px">
+                      <img src="./images/logos/021-mysql.png" alt="mysqlLogo" style="widows: 20px; height:20px">
+                  </picture><br>
+                <a name="Developer" content="opcao">Desenvolvedor por opção  </a>
+                  <picture> <!--"designed by Freepik from Flaticon"-->
+                      <img src="./images/logos/030-html-5.png" alt="htmlLogo" style="widows: 20px; height:20px">
+                      <img src="./images/logos/031-css.png" alt="cssLogo" style="widows: 20px; height:20px">
+                      <img src="./images/logos/js3 - logo.png" alt="javaScriptLogo" style="widows: 20px; height:20px">
+                      <img src="./images/logos/027-php.png" alt="phpLogo" style="widows: 20px; height:20px">
+                      <img src="./images/logos/032-nodejs.png" alt="nodeLogo" style="widows: 20px; height:20px">
+                      <img src="./images/logos/010-github.png" alt="githubLogo" style="widows: 20px; height:20px">
+                  </picture><br>
+                <a name="Motociclista" content="coracao">Motociclista de coração  </a>
+                    <picture> <!--"designed by Smashicons from Flaticon"-->
+                        <img src="./images/logos/motorbike.png" alt="motorbike" style="widows: 20px; height:20px">
+                    </picture><br>
+                <a name="Gamer" content="diversao">Gamer e corredor por diversão  </a>
+                    <picture> <!--"designed by Smashicons from Flaticon"-->
+                        <img src="./images/logos/game-controller-1.png" alt="game" style="widows: 20px; height:20px">
+                        <img src="./images/logos/059-walking.png" alt="running" style="widows: 20px; height:20px">
+                    </picture><br>
+                <a name="Cervejeiro" content="paixao">Cervejeiro e cozinheiro de paixão  </a>
+                    <picture> <!--"designed by Pixelmeetup from Flaticon"-->
+                        <img src="./images/logos/030-bacon.png" alt="bacon" style="widows: 20px; height:20px">
+                        <img src="./images/logos/050-beer-tap.png" alt="beer" style="widows: 20px; height:20px">
+                        <img src="./images/logos/008-coffee.png" alt="coffe" style="widows: 20px; height:20px">
+                    </picture><br><br>
+              </div>
             </div>
-        </section>
-        <section id="formacao">
-            <div class="bio-bar">
+          </div>
+          </section>
+          <section>
+            <div class="container-fluid" id="formacao">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <a class="navbar-brand" href="#">
+                    <img src="./images/logos/014-waranty.png" width="30" height="30" class="d-inline-block align-top" alt="diploma">
+                    Formação
+                  </a>
+                </nav>
                 <div>
-                    <picture class="img-spec">
-                        <img src="./images/logos/014-waranty.png" alt="diploma" style="width:35px; height:35px">
-                    </picture>
-                    <a name="formacao" content="graduacao, pos-graduacao">Formação</a>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Graduação: Análise e desenvolvimento de sistemas | Universidade Estácio de Sá | Previsão de conclusão 2020;</li>
+                    <li class="list-group-item">Pós-Graduação: Gestão de TI com enfase em Banco de dados | Gama Filho</li>
+                    <li class="list-group-item">Graduação: Bacharel em Hotelaria | Universidade Estácio de Sá</li>
+                  </ul>
                 </div>
             </div>
-
-            <div class="bio-text">
-                <ul>
-                    <li>Graduação: Análise e desenvolvimento de sistemas | Universidade Estácio de Sá | Previsão de conclusão 2020;</li>
-                    <li>Pós-Graduação: Gestão de TI com enfase em Banco de dados | Gama Filho | Conclusão 2011;</li>
-                    <li>Graduação: Bacharel em Hotelaria | Universidade Estácio de Sá | Conclusão: 2006</li>
+          </section>
+          <section>
+            <div class="container-fluid" id="cursos">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <a class="navbar-brand" href="#">
+                    <img src="./images/logos/050-quality.png" width="30" height="30" class="d-inline-block align-top" alt="cursos">
+                    Cursos
+                  </a>
+                </nav>
+                <div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Formação JS Mestre Jedi | Udemy | Previsão de conclusão Outubro 2018;</li>
+                    <li class="list-group-item">Node.js: Inovando com Javascript no backend | Alura | Previsão de conclusão Outubro 2018;</li>
+                    <li class="list-group-item">Bootstrap: Criação de uma single-page responsiva | Alura | Previsão de conclusão Outubro 2018;</li>
+                    <li class="list-group-item">WordPress I: hospedagem, administração e widgets | Alura</li>
+                    <li class="list-group-item">PHP e MYSQL I: Fundamentos para criar um sistema Web | Alura</li>
+                    <li class="list-group-item">Html5 e Css3 II: Turbinando as suas páginas | Alura</li>
+                    <li class="list-group-item">Http: Entendendo a Web por debaixo dos panos | Alura</li>
+                    <li class="list-group-item">Git: Controle e compartilhe seu código | Alura</li>
+                    <li class="list-group-item">JavaScript: Programando na linguagem da Web | Alura</li>
+                    <li class="list-group-item">Html5 e Css3 I: Suas primeiras páginas da Web | Alura</li>
+                    <li class="list-group-item">Lógica de Programação II: Pratique com desenhos, animações e um jogo | Alura</li>
+                    <li class="list-group-item">Curso de Administração de Banco de Dados com SQL Server | DEVMEDIA</li>
+                    <li class="list-group-item">Lógica de Programação I: Os Primeiros programas com Javascript e HTML | Alura</li>
+                    <li class="list-group-item">UX e Usabilidade - Primeiros passos | TreinaWeb</li>
+                  </ul>
+                </div>
+            </div>
+          </section>
+          <section>
+            <div class="container-fluid" id="progresso">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <a class="navbar-brand" href="#">
+                    <img src="./images/logos/006-project.png" width="30" height="30" class="d-inline-block align-top" alt="progresso">
+                    Progresso
+                  </a>
+                </nav><br>
+                <div class="progress">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">HTML</div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">CSS</div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">PHP</div>
+                </div>
+            </div><br>
+          </section>
+          <section>
+            <footer>
+              <nav class="nav justify-content-end navbar navbar-expand-lg navbar-dark bg-dark">
+                <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/giovani.pires.52">
+                      <img src="./images/logos/facebook.png" width="30" height="30" alt="logo facebook">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/oqvi">
+                      <img src="./images/logos/twitter-1.png" width="30" height="30" alt="logo twitter">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/giovani_pires/?hl=pt-br">
+                      <img src="./images/logos/instagram.png" width="30" height="30" alt="logo instagram">
+                    </a>
+                  </li>
                 </ul>
-            </div>
-        </section>
-        <br>
-        <section id="cursos">
-            <div class="bioformation-bar">
-                <div>
-                    <picture class="img-spec">
-                        <img src="./images/logos/050-quality.png" alt="cursos" height="35" width="35">
-                    </picture>
-                    <a name="cursos" content="cursos, certificacoes">Cursos e certificações</a>
-                </div>
-                <div class="bioformation-text">
-                    <ul>
-                        <li>Formação JS Mestre Jedi | Udemy | Previsão de conclusão Outubro 2018;</li>
-                        <li>Node.js: Inovando com Javascript no backend | Alura | Previsão de conclusão Outubro 2018;</li>
-                        <li>WordPress I: hospedagem, administração e widgets | Alura | Conclusão Setembro 2018;</li>
-                        <li>PHP e MYSQL I: Fundamentos para criar um sistema Web | Alura | Conclusão Setembro 2018;</li>
-                        <li>Html5 e Css3 II: Turbinando as suas páginas | Alura | Conclusão Setembro 2018;</li>
-                        <li>Http: Entendendo a Web por debaixo dos panos | Alura | Conclusão Julho 2018;</li>
-                        <li>Git: Controle e compartilhe seu código | Alura | Conclusão Junho 2018;</li>
-                        <li>JavaScript: Programando na linguagem da Web | Alura | Conclusão Junho 2018;</li>
-                        <li>Html5 e Css3 I: Suas primeiras páginas da Web | Alura | Conclusão Junho 2018;</li>
-                        <li>Lógica de Programação II: Pratique com desenhos, animações e um jogo | Alura | Conclusão Junho 2018;</li>
-                        <li>Curso de Administração de Banco de Dados com SQL Server | DEVMEDIA | Conclusão Maio 2018;</li>
-                        <li>Lógica de Programação I: Os Primeiros programas com Javascript e HTML | Alura | Conclusão Maio 2018;</li>
-                        <li>UX e Usabilidade - Primeiros passos | TreinaWeb | Conclusão Maio 2014;</li>
-                    </ul>
-                </div>
-            </div>
-            <br>
-        </section>
-        <section id="barraDeHabilidades">
-            <div class="skill-bar">
-                <div>
-                    <picture class="img-spec">
-                        <img src="./images/logos/006-project.png" alt="habilidades" height="35" width="35">
-                    </picture>
-                    <a name="habilidades" content="barra de aprendizado">Grau de aprendizado</a>
-                </div><br>
-                <p>HTML</p>
-                  <div class="container">
-                    <div class="skills html">85%</div>
-                  </div>
-
-                <p>CSS</p>
-                  <div class="container">
-                    <div class="skills css">75%</div>
-                  </div>
-
-                <p>JavaScript</p>
-                  <div class="container">
-                    <div class="skills js">65%</div>
-                  </div>
-
-                  <p>Banco de dados (Oracle, SQLServer, MySql, PostgreSQL)</p>
-                    <div class="container">
-                      <div class="skills bd">65%</div>
-                    </div>
-
-                  <p>NodeJS</p>
-                    <div class="container">
-                      <div class="skills nodejs">40%</div>
-                    </div>
-
-                <p>PHP</p>
-                  <div class="container">
-                    <div class="skills php">25%</div>
-                  </div>
-        </section>
+              </nav>
+            </footer>
+          </section>
         </main>
+
+        <script src="./js/jquery-3.3.1.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+
     </body>
 </html>

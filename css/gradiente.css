@@ -5,9 +5,9 @@ body{
 }
 .shadow{
     position: absolute;
-    margin: 80px 20px 0;
-    width: 350px;
-    height: 350px;
+    margin: 25px 15px 0;
+    width: 320px;
+    height: 320px;
     background: linear-gradient(0deg,#000, #262626);
 }
 .shadow:before,
@@ -20,13 +20,13 @@ body{
     background: linear-gradient(54deg, lightgrey,#0000ff, #25dd25c9, darkgrey, #f35309, lightgrey, #0000ff, #25dd25c9,
     darkgrey, #f35309);
     background-size: 400%;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
+    width: calc(100% + 1px);
+    height: calc(100% + 1px);
     z-index: -1;
     animation: animate 20s linear infinite;
 }
 .shadow:after{
-    filter: blur(18px);
+    filter: blur(19px);
 }
 @keyframes animate{
     0%
@@ -38,16 +38,5 @@ body{
     }
     100%{
         background-position: 0 0;
-    }
-}
-
-/* adicionar aqui os novos estilos para mobile */
-@media screen and (max-width: 320px) {
-    .bar-header {
-        background: #fff;
-        font-family: 'Raleway', sans-serif;
-        float: none;
-        display: block;
-        text-align: left;
     }
 }
