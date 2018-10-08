@@ -17,13 +17,14 @@ body{
   margin-top: 100px;
 }
 
-@media only screen and (max-width: 575.98px ) {
+/*responsividade*/
 
+@media only screen and (max-width: 425px ) {
+  /* For mobile phones: */
   #info-pessoal {
-    color: black;
-    text-shadow: 2px 3px 1px lightgrey;
     font-weight: 100;
     margin-top: 375px;
+    margin-left: 25px;
   }
 
   #formacao {
@@ -31,3 +32,39 @@ body{
   }
 
 }
+
+@media only screen and (min-width: 768px ) {
+/* For tablets: */
+  #info-pessoal {
+    margin-top: 95px;
+    margin-left: 60px;
+  }
+
+    #formacao {
+      margin-top: 80px;
+    }
+}
+
+@media only screen and (min-width: 1440px ) {
+    /* For laptop 1: */
+      #info-pessoal {
+        margin-top: 95px;
+        margin-left: -185px;
+      }
+
+        #formacao {
+          margin-top: 80px;
+        }
+  }
+
+  @media only screen and (min-width: 1024px ) {
+  /* For laptop 1: */
+    #info-pessoal {
+      margin-top: 95px;
+      margin-left: -35px;
+    }
+
+      #formacao {
+        margin-top: 80px;
+      }
+  }
