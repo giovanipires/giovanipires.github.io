@@ -17,6 +17,10 @@ body{
   margin-top: 100px;
 }
 
+.img-responsive {
+  filter: grayscale(100%);
+}
+
 /*responsividade*/
 
 @media only screen and (max-width: 425px ) {
