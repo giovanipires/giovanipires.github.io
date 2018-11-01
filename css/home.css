@@ -1,7 +1,8 @@
 /* ===== Page ===== */
 
 body{
-    background-color: #fff;
+  background-color: #fff;
+  max-width: 1440px;
 }
 
 /*informacoes-pessoais*/
@@ -10,7 +11,8 @@ body{
   color: black;
   text-shadow: 2px 3px 1px lightgrey;
   font-weight: 100;
-  margin-top: 55px;
+  margin-top: 95px;
+  margin-left: 60px;
 }
 
 #formacao {
@@ -23,52 +25,25 @@ body{
 
 /*responsividade*/
 
-@media only screen and (max-width: 425px ) {
+@media (max-width: 767px ) {
   /* For mobile phones: */
   #info-pessoal {
     font-weight: 100;
     margin-top: 375px;
-    margin-left: 25px;
+    margin-left: 18px;
   }
-
   #formacao {
     margin-top: 1px;
   }
-
 }
 
-@media only screen and (min-width: 768px ) {
-/* For tablets: */
+@media (min-width: 768px ) {
+  /* For tablets: */
   #info-pessoal {
     margin-top: 95px;
     margin-left: 60px;
   }
-
-    #formacao {
-      margin-top: 80px;
-    }
+  #formacao {
+    margin-top: 80px;
+  }
 }
-
-@media only screen and (min-width: 1440px ) {
-    /* For laptop 1: */
-      #info-pessoal {
-        margin-top: 95px;
-        margin-left: -185px;
-      }
-
-        #formacao {
-          margin-top: 80px;
-        }
-  }
-
-  @media only screen and (min-width: 1024px ) {
-  /* For laptop 1: */
-    #info-pessoal {
-      margin-top: 95px;
-      margin-left: -35px;
-    }
-
-      #formacao {
-        margin-top: 80px;
-      }
-  }
