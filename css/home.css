@@ -11,39 +11,8 @@ body{
   color: black;
   text-shadow: 2px 3px 1px lightgrey;
   font-weight: 100;
-  margin-top: 95px;
-  margin-left: 60px;
-}
-
-#formacao {
-  margin-top: 100px;
-}
-
-.img-responsive {
-  filter: grayscale(100%);
+  margin-top: 25px
 }
 
 /*responsividade*/
 
-@media (max-width: 767px ) {
-  /* For mobile phones: */
-  #info-pessoal {
-    font-weight: 100;
-    margin-top: 375px;
-    margin-left: 18px;
-  }
-  #formacao {
-    margin-top: 1px;
-  }
-}
-
-@media (min-width: 768px ) {
-  /* For tablets: */
-  #info-pessoal {
-    margin-top: 95px;
-    margin-left: 60px;
-  }
-  #formacao {
-    margin-top: 80px;
-  }
-}
