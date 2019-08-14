@@ -1,12 +1,12 @@
 // Some code thanks to @chrisgannon
 
-var select = function(s) {
+let select = function(s) {
   return document.querySelector(s);
 }
 
 function randomBetween(min,max)
 {
-    var number = Math.floor(Math.random()*(max-min+1)+min);
+    let number = Math.floor(Math.random()*(max-min+1)+min);
   
     if ( number !== 0 ){
       return number;
@@ -15,11 +15,11 @@ function randomBetween(min,max)
     }
 }
 
-var tl = new TimelineMax();
+let tl = new TimelineMax();
 
-for(var i = 0; i < 20; i++){
+for(let i = 0; i < 20; i++){
 
-  var t = TweenMax.to(select('.bubble' + i), randomBetween(1, 1.5), {
+  let t = TweenMax.to(select('.bubble' + i), randomBetween(1, 1.5), {
     x: randomBetween(12, 15) * (randomBetween(-1, 1)),
     y: randomBetween(12, 15) * (randomBetween(-1, 1)), 
     repeat:-1,
