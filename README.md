@@ -9,10 +9,10 @@
 </a>
 
 <a href="https://www.credly.com/users/giovani-carvalho-pellegrini-pires" target="_blank">
-    <img src="[![Credly Badges](https://img.shields.io/badge/Credly-Badges-%23FF6A00?logo=credly&logoColor=white)]([https://www.credly.com/users/giovani-carvalho-pellegrini-pires])">
+    <img src="https://img.shields.io/badge/credly-%23FF6A00.svg?&style=for-the-badge&logo=credly&logoColor=white"/>
 </a>
 
-[![Gmail Badge](https://img.shields.io/badge/send%20me%20a%20email-silver?style=for-the-badge&logo=gmail&link=mailto:giovani.pires@gmail.com)](mailto:giovani.pires@agmail.com)
+[![Gmail Badge](https://img.shields.io/badge/email-silver?style=for-the-badge&logo=gmail&link=mailto:giovani.pires@gmail.com)](mailto:giovani.pires@agmail.com)
 
 <p>Olá, sou o Giovani, Product Owner com cerca de 20 anos de experiência em tecnologia. Minha trajetória inclui passagens por diversas áreas, como análista de suporte a sistemas, analista de implantação de sistemas, coordenação de implantações, liderança técnica, desenvolvimento front-end e back-end, dados, análise de qualidade e requisitos, além de atuação como Scrum Master. Essa diversidade me proporcionou uma visão ampla e estratégica, essencial para a função de Product Owner e Product Manager.</p>
 
@@ -33,3 +33,11 @@
 </ul>
 
 <p>Adoraria bater um papo—seja para trocar ideias, discutir colaborações ou simplesmente compartilhar insights tomando um café. Você pode entrar em contato comigo por <a href="mailto:giovani.pires@gmail.com">email</a> ou pelo <a href="https://api.whatsapp.com/send?phone=5521998311543">WhatsApp.</a></p>
+
+<h2>Cursos na Área</h2>
+
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=u7K1sdnCv5Y&list=PLb2HQ45KP0Wsk-p_0c6ImqBAEFEY-LU9H" target="_blank">Zero to Hero TypeScript</a>t</li>
+    <li><a href="https://pythondo0aohacking.club.hotmart.com/t" traget="_blank">ACkerdemy - 60 dias de Python</a></li>
+    <li>Incluindo ... </li>
+</ul>
