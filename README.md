@@ -1,15 +1,15 @@
 # Olá, me chamo Giovani 👋
 
-<a href="https://www.linkedin.com/in/giovani-carvalho-p-pires/">
+<a href="https://www.linkedin.com/in/giovani-carvalho-p-pires/" target="_blank">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://www.instagram.com/giovani_pires/">
+<a href="https://www.instagram.com/giovani_pires/" target="_blank">
     <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
 
-<a href="https://www.credly.com/users/giovani-carvalho-pellegrini-pires">
-    <img src="https://img.shields.io/badge/Credly-FF6A00"/>
+<a href="https://www.credly.com/users/giovani-carvalho-pellegrini-pires" target="_blank">
+    <img src="[![Credly Badges](https://img.shields.io/badge/Credly-Badges-%23FF6A00?logo=credly&logoColor=white)]([https://www.credly.com/users/giovani-carvalho-pellegrini-pires])">
 </a>
 
 [![Gmail Badge](https://img.shields.io/badge/send%20me%20a%20email-silver?style=for-the-badge&logo=gmail&link=mailto:giovani.pires@gmail.com)](mailto:giovani.pires@agmail.com)
