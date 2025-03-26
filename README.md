@@ -1,16 +1,10 @@
 # Olá, me chamo Giovani 👋
 
-<a href="https://www.linkedin.com/in/giovani-carvalho-p-pires/" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://www.instagram.com/giovani_pires/" target="_blank">
-    <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-
-<a href="https://www.credly.com/users/giovani-carvalho-pellegrini-pires" target="_blank">
-    <img src="https://img.shields.io/badge/credly-%23FF6A00.svg?&style=for-the-badge&logo=credly&logoColor=white"/>
-</a> [![Gmail Badge](https://img.shields.io/badge/email-silver?style=for-the-badge&logo=gmail&link=mailto:giovani.pires@gmail.com)](mailto:giovani.pires@agmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giovani-carvalho-p-pires/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:giovani.pires@gmail.com)
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/giovani-carvalho-pellegrini-pires)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/giovanipires)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/giovani_pires/)
 
 <p>Olá, sou o Giovani, Product Owner com cerca de 20 anos de experiência em tecnologia. Minha trajetória inclui passagens por diversas áreas, como análista de suporte a sistemas, analista de implantação de sistemas, coordenação de implantações, liderança técnica, desenvolvimento front-end e back-end, dados, análise de qualidade e requisitos, além de atuação como Scrum Master. Essa diversidade me proporcionou uma visão ampla e estratégica, essencial para a função de Product Owner e Product Manager.</p>
 
