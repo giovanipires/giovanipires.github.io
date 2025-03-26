@@ -26,10 +26,18 @@
 
 <p>Adoraria bater um papo—seja para trocar ideias, discutir colaborações ou simplesmente compartilhar insights tomando um café. Você pode entrar em contato comigo por <a href="mailto:giovani.pires@gmail.com">email</a> ou pelo <a href="https://api.whatsapp.com/send?phone=5521998311543">WhatsApp.</a></p>
 
-<h2>Cursos na Área</h2>
+<h2>Alguns Cursos que Gosto de Destacar na Área</h2>
 
 <ul>
     <li><a href="https://www.youtube.com/watch?v=u7K1sdnCv5Y&list=PLb2HQ45KP0Wsk-p_0c6ImqBAEFEY-LU9H" target="_blank">Zero to Hero TypeScript</a>t</li>
-    <li><a href="https://pythondo0aohacking.club.hotmart.com/t" traget="_blank">ACkerdemy - 60 dias de Python</a></li>
-    <li>Incluindo ... </li>
+    <li><a href="https://pythondo0aohacking.club.hotmart.com/t" traget="_blank">Ackerdemy - 60 dias de Python</a></li>
+    <li><a href="https://www.udemy.com/share/102Pi83@PfbmcIyUxSKT6-DVFr8hoenMK-n3vRS318boF3wOGeI_2IMSCnWQ8c9Xmd0yEF38/" traget="_blank">Power BI para Todos: Fácil e Simples</a></li>
+    <li><a href="https://www.udemy.com/share/102bRG3@hMBuPGqZjm8XF4urnTojFl03dNp3VbwE6c014MvCtZ1Rl0DuWO4qV1hvfUBtv965/" traget="_blank">Master Power BI - De A à Z</a></li>
+    <li><a href="https://www.udemy.com/share/1029fU3@sc4cmtWn-eWIOsxzp7ravM_845Xb5tUePXA_TXLKY3ez7VXa32jtowpDwlet8d5e/" traget="_blank">JMeter - Testes de performance</a></li>
+    <li><a href="https://www.udemy.com/share/101WFA3@K8i-r5LOA2KZNdsjOhOSpQRgiZmX-SJlju8ALQqCi-xnfSg6s4FQ2Nr2beFsuTfJ/" traget="_blank">Docker: Ferramenta essencial para Desenvolvedores</a></li>
+    <li><a href="https://www.udemy.com/share/101WH83@YAro4WQ59fopaPpA3gMIX8-_SMG5BvtvRMy7BlyH6kJeJe0ORE87BFRBEBFhLES9/" traget="_blank">Curso Completo de PHP 7</a></li>
+    <li><a href="https://www.udemy.com/share/101wM23@4DtFMJV7NqEh-o3HI_y2T9QffRaBco2b3a9qRKLFfxPIZdWKMzFVBIjSB5kBidhx/" traget="_blank">Introdução a Laravel</a></li>
+    <li><a href="https://www.udemy.com/share/101qQa3@eTWv84t2Ysc5SRtm-pYi_WX_bcL2xHBYYQVDzPFjWZwEa5jWMcONazlzyRpOoaZN/" traget="_blank">CRUD Básico com Bootstrap 4, <bold>PHP<bold> e MySQL</a></li>
+    <li><a href="https://www.udemy.com/share/101Wwu3@RazB87HfmS42uErQK-nMljgn8JNoM8KTl7bUH4EQPvs3S_MXqC1BvihPualM1cn2/" traget="_blank">Curso Vue JS 2 - O Guia completo</a></li>
+    <li>Upload em andamento ... </li>
 </ul>
