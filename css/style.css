@@ -58,6 +58,73 @@ a {
   transform: scale(1.05); /* Efeito de zoom suave ao passar o mouse */
 }
 
+/* Estilo geral da seção */
+.education-section {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+/* Título da seção */
+.section-title {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* Lista principal */
+.education-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Itens da lista */
+.education-item {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #eee;
+  line-height: 1.6;
+}
+
+/* Destacar formações vs certificações */
+.degree {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.certification {
+  font-weight: 500;
+  color: #16a085;
+}
+
+.specialization {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Sublista de certificações Scrum */
+.sub-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.sub-list li {
+  padding: 0.2rem 0;
+  color: #34495e;
+}
+
+/* Efeito hover sutil */
+.education-item:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease;
+}
+
 @media (max-width: 850px) {
   .profile {
     width: 100%;
@@ -101,8 +168,8 @@ a {
   }
 }
 .profile .picture-resume {
-  width: 210px;
-  height: 210px;
+  width: 220px;
+  height: 220px;
   background-size: cover;
   border-radius: 50%;
   margin-right: 0px;
@@ -367,6 +434,18 @@ a {
   width: 20%;
   -webkit-animation: skill_6 0.6s ease;
           animation: skill_6 0.6s ease;
+}
+
+@media (max-width: 768px) {
+  .education-section {
+    padding: 15px;
+  }
+  .section-title {
+    font-size: 1.3rem;
+  }
+  .education-item {
+    padding: 0.6rem 0;
+  }
 }
 
 @-webkit-keyframes skill_1 {
