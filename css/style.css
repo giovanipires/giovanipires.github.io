@@ -49,6 +49,15 @@ a {
   float: left;
   color: #333F48;
 }
+
+.badges-container a {
+  transition: transform 0.3s ease;
+}
+
+.badges-container a:hover {
+  transform: scale(1.05); /* Efeito de zoom suave ao passar o mouse */
+}
+
 @media (max-width: 850px) {
   .profile {
     width: 100%;
