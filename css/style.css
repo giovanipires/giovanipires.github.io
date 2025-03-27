@@ -61,6 +61,7 @@ a {
 /* Estilo geral da seção */
 .education-section {
   font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: left;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
