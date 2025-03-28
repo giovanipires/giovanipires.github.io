@@ -155,3 +155,42 @@
       margin-left: 1rem;
     }
   }
+
+    /* Adições ao CSS anterior */
+    .exp-card-long {
+        border-left-color: #9f7aea; /* Roxo para destaque */
+      }
+      
+      .exp-card-long .exp-header {
+        margin-bottom: 1.5rem;
+      }
+      
+      .exp-note {
+        margin-top: 1.5rem;
+        padding: 0.8rem;
+        background: #fffaf0;
+        border-left: 3px solid #ed8936;
+        font-size: 0.9rem;
+      }
+      
+      .exp-note p {
+        margin: 0;
+      }
+      
+      /* Timeline aprimorada */
+      .exp-card-long .timeline-item {
+        margin-bottom: 2rem;
+        padding-left: 2.5rem;
+      }
+      
+      .exp-card-long .timeline-phase {
+        width: 2.2rem;
+        height: 2.2rem;
+        font-size: 0.8rem;
+      }
+      
+      @media (min-width: 768px) {
+        .exp-card-long .timeline-item {
+          padding-left: 3rem;
+        }
+      }
