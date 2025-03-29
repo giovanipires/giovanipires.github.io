@@ -1,293 +1,372 @@
-  /* Mobile-First CSS */
-  .experience {
-    padding: 1rem;
-  }
-
-  .section-title {
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-    color: #4299e1;
-    position: relative;
-  }
-
-  .section-title:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #4299e1;
-    margin: 0.5rem auto;
-  }
-
-  .exp-card {
-    background: white;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    border-left: 4px solid #4299e1;
-  }
-
-  .exp-header {
-    margin-bottom: 1rem;
-  }
-
-  .exp-position {
-    font-size: 1.3rem;
-    color: #2d3748;
-    margin: 0 0 0.3rem;
-  }
-
-  .exp-company {
-    font-weight: 600;
-    color: #4a5568;
-    margin-bottom: 0.5rem;
-  }
-
-  .exp-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-    font-size: 0.9rem;
-    color: #718096;
-  }
-
-  .exp-summary {
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .exp-summary p {
-    margin: 0;
-  }
-
-  .exp-highlights h4,
-  .exp-skills h4 {
-    font-size: 1.1rem;
-    color: #2d3748;
-    margin: 1.5rem 0 1rem;
-  }
-
-  .exp-highlights ul {
-    padding-left: 0;
-    list-style: none;
-  }
-
-  .exp-highlights li {
-    margin-bottom: 0.8rem;
-    position: relative;
-    padding-left: 1.5rem;
-    line-height: 1.5;
-  }
-
-  .highlight-icon {
-    position: absolute;
-    left: 0;
-    color: #4299e1;
-  }
-
-  .exp-timeline {
-    margin: 1.5rem 0;
-  }
-
-  .timeline-item {
-    margin-bottom: 1.2rem;
-    padding-left: 2rem;
-    position: relative;
-  }
-
-  .timeline-phase {
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: #4299e1;
-    color: white;
-    width: 1.9rem;
-    height: 1.9rem;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.6rem;
-    font-weight: bold;
-  }
-
-  .skill-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-
-  .skill-tag {
-    background: #ebf8ff;
-    color: #2b6cb0;
-    padding: 0.3rem 0.8rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
-  }
-
-  /* Adições ao CSS anterior */
-  .exp-card-long {
-    border-left-color: #9f7aea; /* Roxo para destaque */
-  }
-      
-  .exp-card-long .exp-header {
-    margin-bottom: 1.5rem;
-  }
-      
-  .exp-note {
-    margin-top: 1.5rem;
-    padding: 0.8rem;
-    background: #fffaf0;
-    border-left: 3px solid #ed8936;
-    font-size: 0.9rem;
-  }
-      
-  .exp-note p {
-    margin: 0;
-  }
-      
-  /* Timeline aprimorada */
-  .exp-card-long .timeline-item {
-    margin-bottom: 2rem;
-    padding-left: 2.5rem;
-  }
-      
-  .exp-card-long .timeline-phase {
-    width: 2.2rem;
-    height: 2.2rem;
-    font-size: 0.8rem;
-  }
-
-/* Base Mobile-First Styles (up to 767px) */
+/* 
+  =============================================
+  ESTILOS BASE (MOBILE-FIRST)
+  =============================================
+  Estilos que se aplicam a todos os dispositivos,
+  sendo sobrescritos por media queries quando necessário
+*/
 .experience {
-  padding: 1rem;
+  padding: 1rem; /* Espaçamento interno padrão para mobile */
 }
 
-/* Tablet/Landscape (768px - 1199px) */
+/* 
+  Título principal da seção
+  - Centralizado com cor azul característica
+  - Margem inferior generosa para separação visual
+  - Linha decorativa abaixo via pseudo-elemento
+*/
+.section-title {
+  text-align: center;       /* Alinhamento central */
+  font-size: 1.8rem;        /* Tamanho legível em mobile */
+  margin-bottom: 2rem;      /* Espaço abaixo do título */
+  color: #4299e1;           /* Cor azul principal */
+  position: relative;       /* Contexto para pseudo-elemento */
+}
+
+/* Linha decorativa abaixo do título */
+.section-title:after {
+  content: "";              /* Conteúdo vazio obrigatório */
+  display: block;           /* Exibição em bloco */
+  width: 60px;              /* Largura controlada */
+  height: 3px;              /* Altura da linha */
+  background: #4299e1;      /* Cor azul consistente */
+  margin: 0.5rem auto;      /* Centraliza e adiciona espaço */
+}
+
+/* 
+  Cartão de experiência individual
+  - Fundo branco com bordas arredondadas
+  - Sombra sutil para profundidade
+  - Borda lateral azul como destaque
+*/
+.exp-card {
+  background: white;                /* Contraste com fundo */
+  border-radius: 8px;               /* Cantos arredondados */
+  padding: 1.5rem;                  /* Espaçamento interno */
+  margin-bottom: 2rem;              /* Separação entre cards */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+  border-left: 4px solid #4299e1;    /* Destaque lateral */
+}
+
+/* Cabeçalho do card (posição + empresa) */
+.exp-header {
+  margin-bottom: 1rem;      /* Espaço antes do conteúdo */
+}
+
+/* Estilo do cargo ocupado */
+.exp-position {
+  font-size: 1.3rem;        /* Destaque hierárquico */
+  color: #2d3748;           /* Cor escura para legibilidade */
+  margin: 0 0 0.3rem;       /* Margem apenas abaixo */
+}
+
+/* Nome da empresa */
+.exp-company {
+  font-weight: 600;         /* Peso semi-negrito */
+  color: #4a5568;           /* Cinza médio */
+  margin-bottom: 0.5rem;    /* Espaço antes dos metadados */
+}
+
+/* Metadados (período e localização) */
+.exp-meta {
+  display: flex;            /* Layout flexível */
+  flex-wrap: wrap;          /* Quebra de linha se necessário */
+  gap: 0.8rem;             /* Espaço entre itens */
+  font-size: 0.9rem;       /* Tamanho compacto */
+  color: #718096;          /* Cinza mais claro */
+}
+
+/* Resumo da experiência */
+.exp-summary {
+  margin-bottom: 1.5rem;    /* Espaço antes dos destaques */
+  line-height: 1.6;         /* Espaçamento confortável */
+}
+
+/* Remove margem padrão de parágrafos dentro do resumo */
+.exp-summary p {
+  margin: 0;
+}
+
+/* Estilos para títulos de seções internas */
+.exp-highlights h4,
+.exp-skills h4 {
+  font-size: 1.1rem;        /* Tamanho intermediário */
+  color: #2d3748;           /* Cor escura */
+  margin: 1.5rem 0 1rem;    /* Espaço acima e abaixo */
+}
+
+/* Lista de destaques/realizações */
+.exp-highlights ul {
+  padding-left: 0;          /* Remove padding padrão */
+  list-style: none;         /* Remove marcadores */
+}
+
+/* Itens individuais da lista */
+.exp-highlights li {
+  margin-bottom: 0.8rem;    /* Espaço entre itens */
+  position: relative;       /* Contexto para ícone */
+  padding-left: 1.5rem;     /* Espaço para ícone */
+  line-height: 1.5;         /* Leitura confortável */
+}
+
+/* Ícone de marcador personalizado */
+.highlight-icon {
+  position: absolute;       /* Posicionamento absoluto */
+  left: 0;                  /* Alinhado à esquerda */
+  color: #4299e1;           /* Cor azul consistente */
+}
+
+/* Container da linha do tempo */
+.exp-timeline {
+  margin: 1.5rem 0;         /* Espaço vertical */
+}
+
+/* Itens individuais da linha do tempo */
+.timeline-item {
+  margin-bottom: 1.2rem;    /* Espaço entre itens */
+  padding-left: 2rem;       /* Espaço para fase */
+  position: relative;       /* Contexto para número */
+}
+
+/* Número/indicador de fase */
+.timeline-phase {
+  position: absolute;       /* Posicionamento preciso */
+  left: 0;                  /* Alinhado à esquerda */
+  top: 0;                   /* Alinhado ao topo */
+  background: #4299e1;      /* Fundo azul */
+  color: white;             /* Texto branco */
+  width: 1.9rem;            /* Tamanho fixo */
+  height: 1.9rem;           /* Tamanho fixo */
+  border-radius: 50%;       /* Formato circular */
+  display: flex;            /* Flex para centralização */
+  align-items: center;      /* Centraliza vertical */
+  justify-content: center;  /* Centraliza horizontal */
+  font-size: 0.6rem;        /* Tamanho proporcional */
+  font-weight: bold;        /* Destaque visual */
+}
+
+/* Container de tags de habilidades */
+.skill-tags {
+  display: flex;            /* Layout flexível */
+  flex-wrap: wrap;          /* Quebra de linha */
+  gap: 0.5rem;              /* Espaço entre tags */
+}
+
+/* Tags de habilidades individuais */
+.skill-tag {
+  background: #ebf8ff;      /* Fundo azul claro */
+  color: #2b6cb0;           /* Texto azul escuro */
+  padding: 0.3rem 0.8rem;   /* Espaçamento interno */
+  border-radius: 20px;      /* Bordas arredondadas */
+  font-size: 0.8rem;        /* Tamanho compacto */
+}
+
+/* 
+  =============================================
+  VARIAÇÕES ESPECIAIS
+  =============================================
+  Estilos para componentes com variações específicas
+*/
+
+/* Card longo - variação com borda roxa */
+.exp-card-long {
+  border-left-color: #9f7aea; /* Cor roxa para destaque */
+}
+      
+/* Cabeçalho em cards longos */
+.exp-card-long .exp-header {
+  margin-bottom: 1.5rem;    /* Espaço aumentado */
+}
+      
+/* Nota de destaque especial */
+.exp-note {
+  margin-top: 1.5rem;       /* Espaço superior */
+  padding: 0.8rem;          /* Espaçamento interno */
+  background: #fffaf0;      /* Fundo laranja claro */
+  border-left: 3px solid #ed8936; /* Borda laranja */
+  font-size: 0.9rem;        /* Tamanho legível */
+}
+      
+/* Remove margem padrão em parágrafos dentro de notas */
+.exp-note p {
+  margin: 0;
+}
+      
+/* 
+  Linha do tempo aprimorada para cards longos
+  - Itens com mais espaço
+  - Indicadores de fase maiores
+*/
+.exp-card-long .timeline-item {
+  margin-bottom: 2rem;      /* Espaço aumentado */
+  padding-left: 2.5rem;     /* Espaço para fase */
+}
+      
+.exp-card-long .timeline-phase {
+  width: 2.2rem;            /* Tamanho aumentado */
+  height: 2.2rem;           /* Tamanho aumentado */
+  font-size: 0.8rem;        /* Texto maior */
+}
+
+/* 
+  =============================================
+  ESTILOS BASE (MOBILE-FIRST - ATÉ 767px)
+  =============================================
+  Todos os estilos básicos são definidos primeiro para mobile, 
+  as media queries apenas acrescentam melhorias progressivas
+*/
+.experience {
+  padding: 1rem; /* Espaçamento interno reduzido para mobile */
+}
+
+/* 
+  =============================================
+  TABLET/LANDSCAPE (768px - 1199px)
+  =============================================
+  Primeiro breakpoint para dispositivos maiores que tablets
+*/
 @media (min-width: 768px) {
   .experience {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+    max-width: 900px;  /* Limita a largura máxima do container */
+    margin: 0 auto;    /* Centraliza na tela */
+    padding: 2rem 1rem; /* Aumenta o padding */
   }
   .section-title {
-    font-size: 2.2rem;
+    font-size: 2.2rem; /* Título principal maior */
   }
   .exp-card {
-    padding: 2rem;
+    padding: 2rem;     /* Mais espaço interno nos cards */
   }
   .exp-position {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Tamanho de fonte para cargos */
   }
   .exp-meta {
-    font-size: 1rem;
+    font-size: 1rem;   /* Metadados (período/local) legíveis */
   }
   .exp-timeline {
-    margin-left: 1rem;
+    margin-left: 1rem; /* Alinhamento da linha do tempo */
   }
   .exp-card-long .timeline-item {
-    padding-left: 3rem;
+    padding-left: 3rem; /* Espaço para itens longos */
   }
 }
 
-/* 1200px - 1599px (Small Desktop) */
+/* 
+  =============================================
+  SMALL DESKTOP (1200px - 1599px)
+  =============================================
+  Otimização para monitores menores/médios
+*/
 @media (min-width: 1200px) {
   .experience {
-    max-width: 1100px;
-    padding: 2.5rem 1.5rem;
+    max-width: 1100px;   /* Container um pouco mais largo */
+    padding: 2.5rem 1.5rem; /* Espaçamento vertical maior */
   }
   .section-title {
-    font-size: 2.4rem;
+    font-size: 2.4rem;   /* Hierarquia visual mais clara */
   }
   .exp-card {
-    padding: 2.5rem;
+    padding: 2.5rem;     /* Mais "respiração" interna */
   }
   .exp-position {
-    font-size: 1.6rem;
+    font-size: 1.6rem;   /* Destaque para cargos */
   }
   .skill-tag {
-    font-size: 0.85rem;
-    padding: 0.4rem 1rem;
+    font-size: 0.85rem;  /* Tags de habilidades mais legíveis */
+    padding: 0.4rem 1rem; /* Espaçamento interno melhorado */
   }
 }
 
-/* 1600px - 1799px (Medium Desktop) */
+/* 
+  =============================================
+  MEDIUM DESKTOP (1600px - 1799px)
+  =============================================
+  Ajustes para monitores de alta resolução
+*/
 @media (min-width: 1600px) {
   .experience {
-    max-width: 1300px;
-    padding: 3rem 2rem;
+    max-width: 1300px;    /* Largura máxima expandida */
+    padding: 3rem 2rem;   /* Espaçamento generoso */
   }
   .section-title {
-    font-size: 2.6rem;
+    font-size: 2.6rem;    /* Título principal impactante */
   }
   .exp-card {
-    padding: 3rem;
+    padding: 3rem;        /* Espaço interno premium */
   }
   .exp-position {
-    font-size: 1.8rem;
+    font-size: 1.8rem;    /* Destaque hierárquico */
   }
   .exp-meta {
-    font-size: 1.1rem;
+    font-size: 1.1rem;    /* Metadados mais legíveis */
   }
   .exp-summary, 
   .exp-highlights li,
   .timeline-content {
-    font-size: 1.05rem;
-    line-height: 1.7;
+    font-size: 1.05rem;   /* Texto principal confortável */
+    line-height: 1.7;     /* Espaçamento entre linhas melhorado */
   }
 }
 
-/* 1800px - 2399px (Large Desktop) */
+/* 
+  =============================================
+  LARGE DESKTOP (1800px - 2399px)
+  =============================================
+  Otimização para monitores ultrawide
+*/
 @media (min-width: 1800px) {
   .experience {
-    max-width: 1400px;
+    max-width: 1400px;    /* Limite máximo de largura */
   }
   .section-title {
-    font-size: 2.8rem;
+    font-size: 2.8rem;    /* Título com forte presença */
   }
   .exp-card {
-    padding: 3.5rem;
+    padding: 3.5rem;      /* Espaçamento de alto nível */
   }
   .skill-tags {
-    gap: 0.7rem;
+    gap: 0.7rem;          /* Espaço entre tags aumentado */
   }
   .skill-tag {
-    font-size: 0.9rem;
-    padding: 0.5rem 1.2rem;
+    font-size: 0.9rem;    /* Tags mais destacadas */
+    padding: 0.5rem 1.2rem; /* Preenchimento generoso */
   }
 }
 
-/* 2400px+ (Extra Large Desktop) */
+/* 
+  =============================================
+  EXTRA LARGE DESKTOP (2400px+)
+  =============================================
+  Ajustes para telas 4K/ultra-wide extremas
+*/
 @media (min-width: 2400px) {
   .experience {
-    max-width: 1600px;
-    padding: 4rem;
+    max-width: 1600px;    /* Largura máxima extra */
+    padding: 4rem;        /* Espaçamento de luxo */
   }
   .section-title {
-    font-size: 3rem;
+    font-size: 3rem;      /* Título com impacto visual */
   }
   .exp-card {
-    padding: 4rem;
+    padding: 4rem;        /* Espaçamento interno máximo */
   }
   .exp-position {
-    font-size: 2rem;
+    font-size: 2rem;      /* Destaque hierárquico máximo */
   }
   .exp-meta {
-    font-size: 1.2rem;
+    font-size: 1.2rem;    /* Metadados muito legíveis */
   }
   .exp-summary, 
   .exp-highlights li,
   .timeline-content {
-    font-size: 1.1rem;
+    font-size: 1.1rem;    /* Conforto de leitura premium */
   }
   .skill-tag {
-    font-size: 1rem;
-    padding: 0.6rem 1.4rem;
+    font-size: 1rem;      /* Tags com excelente legibilidade */
+    padding: 0.6rem 1.4rem; /* Espaçamento interno ideal */
   }
   .exp-timeline,
   .exp-highlights {
-    margin-left: 1.5rem;
+    margin-left: 1.5rem;  /* Alinhamento perfeito */
   }
 }
