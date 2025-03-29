@@ -127,70 +127,167 @@
     font-size: 0.8rem;
   }
 
-  /* Desktop */
-  @media (min-width: 768px) {
-    .experience {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem 1rem;
-    }
-
-    .section-title {
-      font-size: 2.2rem;
-    }
-
-    .exp-card {
-      padding: 2rem;
-    }
-
-    .exp-position {
-      font-size: 1.5rem;
-    }
-
-    .exp-meta {
-      font-size: 1rem;
-    }
-
-    .exp-timeline {
-      margin-left: 1rem;
-    }
+  /* Adições ao CSS anterior */
+  .exp-card-long {
+    border-left-color: #9f7aea; /* Roxo para destaque */
+  }
+      
+  .exp-card-long .exp-header {
+    margin-bottom: 1.5rem;
+  }
+      
+  .exp-note {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background: #fffaf0;
+    border-left: 3px solid #ed8936;
+    font-size: 0.9rem;
+  }
+      
+  .exp-note p {
+    margin: 0;
+  }
+      
+  /* Timeline aprimorada */
+  .exp-card-long .timeline-item {
+    margin-bottom: 2rem;
+    padding-left: 2.5rem;
+  }
+      
+  .exp-card-long .timeline-phase {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 0.8rem;
   }
 
-    /* Adições ao CSS anterior */
-    .exp-card-long {
-        border-left-color: #9f7aea; /* Roxo para destaque */
-      }
-      
-      .exp-card-long .exp-header {
-        margin-bottom: 1.5rem;
-      }
-      
-      .exp-note {
-        margin-top: 1.5rem;
-        padding: 0.8rem;
-        background: #fffaf0;
-        border-left: 3px solid #ed8936;
-        font-size: 0.9rem;
-      }
-      
-      .exp-note p {
-        margin: 0;
-      }
-      
-      /* Timeline aprimorada */
-      .exp-card-long .timeline-item {
-        margin-bottom: 2rem;
-        padding-left: 2.5rem;
-      }
-      
-      .exp-card-long .timeline-phase {
-        width: 2.2rem;
-        height: 2.2rem;
-        font-size: 0.8rem;
-      }
-      
-      @media (min-width: 768px) {
-        .exp-card-long .timeline-item {
-          padding-left: 3rem;
-        }
-      }
+/* Base Mobile-First Styles (up to 767px) */
+.experience {
+  padding: 1rem;
+}
+
+/* Tablet/Landscape (768px - 1199px) */
+@media (min-width: 768px) {
+  .experience {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  .section-title {
+    font-size: 2.2rem;
+  }
+  .exp-card {
+    padding: 2rem;
+  }
+  .exp-position {
+    font-size: 1.5rem;
+  }
+  .exp-meta {
+    font-size: 1rem;
+  }
+  .exp-timeline {
+    margin-left: 1rem;
+  }
+  .exp-card-long .timeline-item {
+    padding-left: 3rem;
+  }
+}
+
+/* 1200px - 1599px (Small Desktop) */
+@media (min-width: 1200px) {
+  .experience {
+    max-width: 1100px;
+    padding: 2.5rem 1.5rem;
+  }
+  .section-title {
+    font-size: 2.4rem;
+  }
+  .exp-card {
+    padding: 2.5rem;
+  }
+  .exp-position {
+    font-size: 1.6rem;
+  }
+  .skill-tag {
+    font-size: 0.85rem;
+    padding: 0.4rem 1rem;
+  }
+}
+
+/* 1600px - 1799px (Medium Desktop) */
+@media (min-width: 1600px) {
+  .experience {
+    max-width: 1300px;
+    padding: 3rem 2rem;
+  }
+  .section-title {
+    font-size: 2.6rem;
+  }
+  .exp-card {
+    padding: 3rem;
+  }
+  .exp-position {
+    font-size: 1.8rem;
+  }
+  .exp-meta {
+    font-size: 1.1rem;
+  }
+  .exp-summary, 
+  .exp-highlights li,
+  .timeline-content {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+}
+
+/* 1800px - 2399px (Large Desktop) */
+@media (min-width: 1800px) {
+  .experience {
+    max-width: 1400px;
+  }
+  .section-title {
+    font-size: 2.8rem;
+  }
+  .exp-card {
+    padding: 3.5rem;
+  }
+  .skill-tags {
+    gap: 0.7rem;
+  }
+  .skill-tag {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+  }
+}
+
+/* 2400px+ (Extra Large Desktop) */
+@media (min-width: 2400px) {
+  .experience {
+    max-width: 1600px;
+    padding: 4rem;
+  }
+  .section-title {
+    font-size: 3rem;
+  }
+  .exp-card {
+    padding: 4rem;
+  }
+  .exp-position {
+    font-size: 2rem;
+  }
+  .exp-meta {
+    font-size: 1.2rem;
+  }
+  .exp-summary, 
+  .exp-highlights li,
+  .timeline-content {
+    font-size: 1.1rem;
+  }
+  .skill-tag {
+    font-size: 1rem;
+    padding: 0.6rem 1.4rem;
+  }
+  .exp-timeline,
+  .exp-highlights {
+    margin-left: 1.5rem;
+  }
+}
